@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Venu Mora - Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
@@ -13,7 +15,7 @@
 			<div class="main">
 				<h1 class="display-inline-block site-logo float-left padding-20-px">Venu Mora</h1>
 				<nav class="navigation float-right">
-					<ul class="display-inline-block">
+					<ul class="navigation-group display-inline-block">
 						<li class="float-left navigation-item"><a  class="navigation-item-action" href="index.html">About</a></li>
 						<li class="float-left navigation-item"><a  class="navigation-item-action" href="portfolio.html">Portfolio</a></li>
 						<li class="float-left navigation-item"><a  class="navigation-item-action" href="contact.html">Contact</a></li>
@@ -25,7 +27,13 @@
 			<section class="main-section padding-30-px float-left">
 				<h2 class="padding-bottom-30-px gray-boder-bottom-large">About Me</h2>
 				<article class="about-me margin-top-30-px">
-					<img class="profile-picture float-left" src="https://placehold.it/200X150" alt="Profile Picture">
+					<picture>
+					  <source srcset="https://placehold.it/536X360" media="(max-width: 640px)">
+					  <source srcset="https://placehold.it/300X200" media="(max-width: 768px)">						
+					  <source srcset="https://placehold.it/406X250" media="(max-width: 980px)">
+					  <source srcset="https://placehold.it/200X150">
+					  <img class="profile-picture float-left" src="https://placehold.it/200X150" alt="Profile Picture">
+					</picture>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus rerum, praesentium soluta dolore vitae nostrum perspiciatis asperiores aperiam totam suscipit maxime commodi aliquam?</p>
 					<p>Itaque iste deserunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto expedita quasi numquam sit maiores doloribus modi necessitatibus sequi voluptates inventore voluptatum blanditiis debitis ducimus delectus quaerat neque, itaque iste deserunt?</p>
 				</article>
